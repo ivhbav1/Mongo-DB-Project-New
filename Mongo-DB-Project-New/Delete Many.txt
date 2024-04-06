@@ -1,0 +1,1 @@
+db.Client_Matters.deleteMany({ "status": "Inactive" })

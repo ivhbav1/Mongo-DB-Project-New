@@ -1,0 +1,3 @@
+db.Case_Law.aggregate([
+  { $sort: { date: -1 } }
+])

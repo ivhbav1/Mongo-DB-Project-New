@@ -1,0 +1,10 @@
+db.Case_Law.aggregate([
+  {
+    $lookup: {
+      from: "judges",
+      localField: "judges",
+      foreignField: "name",
+      as: "judgeInfo"
+    }
+  }
+])

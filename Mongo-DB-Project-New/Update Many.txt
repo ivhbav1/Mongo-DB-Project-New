@@ -1,0 +1,10 @@
+db.Case_Law.updateMany(
+   {},
+   {
+      $set: {
+         "court": "District Court",
+         "judges": ["Judge Jane Smith"],
+         "summary": "Updated summary for the case"
+      }
+   }
+)
